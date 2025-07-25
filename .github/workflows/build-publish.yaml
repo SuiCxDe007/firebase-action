@@ -25,8 +25,9 @@ jobs:
       uses: docker/metadata-action@v4
       with:
         images: |
-            w9jds/firebase-action
-            ghcr.io/${{ github.repository }}
+          suicxde007/firebase-action
+          ghcr.io/${{ github.repository }}
+
 
     -
       name: Login to Docker Hub
