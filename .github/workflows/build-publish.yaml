@@ -25,7 +25,7 @@ jobs:
       uses: docker/metadata-action@v4
       with:
         images: |
-          suicxde007/firebase-action
+          suicxde/firebase-action
           ghcr.io/${{ github.repository }}
 
 
