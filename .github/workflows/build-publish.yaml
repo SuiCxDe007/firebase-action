@@ -26,7 +26,7 @@ jobs:
       with:
         images: |
           suicxde/firebase-action
-          ghcr.io/${{ github.repository }}
+
 
 
     -
